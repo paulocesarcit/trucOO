@@ -6,7 +6,6 @@ public class Copas extends Cartas {
         naipe = "Copas";
     }
     
-
     @Override
     public void atribuiForca(int numero) {
         if(numero >= 1 && numero <= 3){
@@ -28,7 +27,5 @@ public class Copas extends Cartas {
         aux += "Carta: " + numero + " ♥\n";
         return aux;
     }
-    
-    
     
 }

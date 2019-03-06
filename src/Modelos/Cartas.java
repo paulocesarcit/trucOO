@@ -31,5 +31,4 @@ public abstract class Cartas {
         this.naipe = naipe;
     }
     
-    
 }
